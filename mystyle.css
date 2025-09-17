@@ -1,0 +1,254 @@
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libertinus-serif-regular {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.Story {
+    margin-top: 1rem;
+
+  position: absolute;
+  left: 25%;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.Story:hover {
+  transform: scale(1.2) rotate(-3deg);
+}
+
+.logo {
+  position: absolute;
+  left: 47%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.2) rotate(-3deg);
+}
+
+.Present {  
+  margin-top: 1rem;
+  position: absolute;
+  right: 25%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Present:hover {
+  transform: scale(1.2) rotate(-3deg);
+}
+
+.bag {
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bag:hover {
+    transform: scale(1.2) 
+}
+
+.nav-container {
+  max-width: 0;
+  margin: auto;
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #000, #171717, #000, #171717, #000);
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.product {
+  margin: 20px auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  max-width: 1200px;
+}
+
+
+
+.item {
+  padding: 1rem;
+  margin-top: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.171);
+}
+
+
+.item:hover img {
+  transform: translateY(-8px) scale(1.05);
+}
+
+.item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ระยะห่างราคา */
+.item p {
+  margin-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+
+
+
+/* ปุ่มราคา */
+.text {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.text:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
+.text a {
+    color: #fff;
+}
+
+/*POPUP ทั้งหมด*/
+
+/* พื้นหลัง popup */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 999;  /* แก้หน้าสินค้าบัง popup*/
+}
+
+
+/* กล่องรายละเอียด */
+.popup:target {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* ปุ่มปิด */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* เอฟเฟกต์เปิด popup */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/* ระยะห่างราคาใน popup */
+.popup p {
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+/*Contact*/
+footer {
+    background: linear-gradient(90deg, #000, #171717, #000, #171717, #000);
+    padding: 20px ; 
+    text-align: center;
+}
+
+.contact {
+    display: flex; 
+    justify-content: center; 
+    column-gap: 30px; 
+}
+
+.contact a {
+    color: #b6b6b6; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+    font-size: 20px;
+    transition: color 0.3s ease;
+     
+}
+
+.contact a:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+ 
+}
+
+.credit {
+  margin-left: 70%;
+}
+
+.credit a {
+  color:#ffffff
+}
+
+.credit p {
+  color:#ffffff
+}
+
+.popup:target {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
