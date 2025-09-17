@@ -2,242 +2,280 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="mystyle.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Shop</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-    h1 {
-      font-family: serif;
-    }
-  </style>
+        h1 {
+            font-family: serif;
+        }
+    </style>
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-    h5 {
-      font-family: Libertinus Serif;
-    }
-  </style>
+        h5 {
+            font-family: Libertinus Serif;
+        }
+    </style>
 
 </head>
 
 <body>
 
-  <header>
+    <header>
 
 
 
 
-    <nav aria-label="Logo-Fullname">
-      <div class="Fullname">
-        <img src="resources/Urthelogo-full.png" width="150" height="100" alt="โลโก้ตัวชื่อเต็มร้าน URTHE">
-      </div>
+        <nav aria-label="Logo-Fullname">
+            <div class="Fullname">
+                <img src="resources/Urthelogo-full.png" width="150" height="100" alt="โลโก้ตัวชื่อเต็มร้าน URTHE">
+            </div>
 
-      <div class="Story">
-        <a href="#popupStory" aria-label="ไปยังหน้าสตอรี่ของร้าน">
-          <img src="resources/Storyfont.png" width="80" height="80" alt="หน้าสตอรี่ของร้าน">
-        </a>
-      </div>
+            <div class="Story">
+                <a href="#popupStory" aria-label="ไปยังหน้าสตอรี่ของร้าน">
+                    <img src="resources/Storyfont.png" width="80" height="80" alt="หน้าสตอรี่ของร้าน">
+                </a>
+            </div>
 
-      <div id="popupStory" class="popup" role="dialog" aria-labelledby="popupStory-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popupStory-title">Story ของร้าน</h2>
-          <p>ก่อตั้งขึ้นในปี 2012 โดย เบนซ์ อุมาทิพย์ ชำนาญเรือง
-            เป็นแบรนด์เสื้อผ้าสตรีทแฟชั่นของไทยที่เกิดจากความชอบในแฟชั่นและการสร้างเอกลักษณ์เฉพาะตัว ภายใต้คอนเซ็ปต์
-            "Timeless Design" เพื่อออกแบบไอเทมที่หลากหลาย ทันสมัย และมีความเรียบง่าย
-            ทำให้ผู้สวมใส่สามารถนำไปมิกซ์แอนด์แมทช์ในสไตล์ของตัวเองได้อย่างอิสระ. </p>
-        </div>
-      </div>
+            <div id="popupStory" class="popup" role="dialog" aria-labelledby="popupStory-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popupStory-title">Story ของร้าน</h2>
+                    <p>ก่อตั้งขึ้นในปี 2012 โดย เบนซ์ อุมาทิพย์ ชำนาญเรือง
+                        เป็นแบรนด์เสื้อผ้าสตรีทแฟชั่นของไทยที่เกิดจากความชอบในแฟชั่นและการสร้างเอกลักษณ์เฉพาะตัว
+                        ภายใต้คอนเซ็ปต์
+                        "Timeless Design" เพื่อออกแบบไอเทมที่หลากหลาย ทันสมัย และมีความเรียบง่าย
+                        ทำให้ผู้สวมใส่สามารถนำไปมิกซ์แอนด์แมทช์ในสไตล์ของตัวเองได้อย่างอิสระ. </p>
+                </div>
+            </div>
 
-      <div id="Storypopup" class="popup" role="dialog" aria-labelledby="Storypopup-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-        </div>
-      </div>
-
-
-      <div class="logo">
-        <a href="index.html" aria-label="กลับไปหน้าแรก">
-          <img src="resources/logo_white.png" width="100" height="100" alt="โลโก้ร้าน URTHE สีขาว">
-        </a>
-      </div>
-
-      <div class="Present">
-        <a href="#popupPresent" aria-label="ไปยังหน้าแนะนำวิดิโอ">
-          <img src="resources/Presentfont.png" width="80" height="80" alt="หน้าสตอรี่ของร้าน">
-        </a>
-      </div>
-      <div id="popupPresent" class="popup" role="dialog"   
-         aria-labelledby="popupPresentVdio" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popupPresent">แนะนำสินค้าในร้าน</h2>
-          <video width="100%" controls>
-          <source src="resources/วิดิโอแนะนำสินค้าในร้าน.mp4" type="video/mp4">
-        </video>
-        </div>
-      
-      </div>
+            <div id="Storypopup" class="popup" role="dialog" aria-labelledby="Storypopup-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                </div>
+            </div>
 
 
-      <div class="bag">
-        <a href="#" aria-label="เปิดตะกร้าสินค้า">
-          <img src="resources/logo bag.png" width="60" height="60" alt="">
-        </a>
-      </div>
+            <div class="logo">
+                <a href="index.html" aria-label="กลับไปหน้าแรก">
+                    <img src="resources/logo_white.png" width="100" height="100" alt="โลโก้ร้าน URTHE สีขาว">
+                </a>
+            </div>
+
+            <div class="Present">
+                <a href="#popupPresent" aria-label="ไปยังหน้าแนะนำวิดิโอ">
+                    <img src="resources/Presentfont.png" width="80" height="80" alt="หน้าสตอรี่ของร้าน">
+                </a>
+            </div>
+            <div id="popupPresent" class="popup" role="dialog" aria-labelledby="popupPresentVdio" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popupPresent">แนะนำสินค้าในร้าน</h2>
+                    <video width="100%" controls>
+                        <source src="resources/วิดิโอแนะนำสินค้าในร้าน.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+
+
+            <!-- HTML -->
+            <div class="Menu">
+                <a href="#" class="menu-button" aria-label="เปิดเมนูหมวดหมู่สินค้า">
+                    <img src="resources/MenuW.png" width="40" height="40" alt="Menu">
+                </a>
+
+                <!-- เมนู popup -->
+                <div class="menu-popup">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#">Clothing▾</a>
+                            <ul class="submenu">
+                                <li><a href="my1stcategory.html#tshirts">T-Shirts</a></li>
+                                <li><a href="my1stcategory.html#sweatshirts">Sweatshirts</a></li>
+                                <li><a href="my1stcategory.html#pants">Pants</a></li>
+                                <li><a href="my1stcategory.html#shirts">Shirts</a></li>
+                                <li><a href="my1stcategory.html#shorts">Shorts</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Accessories▾</a>
+                            <ul class="submenu">
+                                <li><a href="my2ndcategory.html#hats">Hats and Scarves</a></li>
+                                <li><a href="my2ndcategory.html#bags">Bags</a></li>
+                                <li><a href="my2ndcategory.html#other">Other Accessories</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
     </nav>
-  </header>
+    </header>
 
-  <main>
-    <div class="product" role="list">
-      <!-- item 1 -->
-      <div class="item" role="listitem">
-        <img src="resources/UrtheB-side.png" width="180" height="229" alt="เสื้อยืด B-sdie">
-        <h3>URTHE B-SIDE</h3>
-        <p style="font-size: 14px;"> เสื้อยืด สกรีนลาย รุ่น B-SIDE </p>
-        <p class="text-sm font-medium text-neutral-700">฿ 200</p>
-        <a href="#popup1" class="text" aria-label="รายละเอียดเพิ่มเติมของสินค้า เสื้อยืด B-sdie">รายละเอียดเพิ่มเติม</a>
-      </div>
-      <div id="popup1" class="popup" role="dialog" aria-labelledby="popup1-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popup1-title">URTHE B-SIDE<br> YOUARETHE <br>( Black )</h2>
-          <img src="resources/UrtheB-side.png" width="190" alt="เสื้อยืด B-sdie">
-          <p>วัสดุ: Cotton <br>ขนาด: รอบอก 40-42 นิ้ว / ยาว 28 นิ้ว </p>
-          <p class="text"><a href="#" class="bag" aria-label="เพิ่ม เสื้อยืด B-sdie ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+    <main>
+        <div class="product" role="list">
+            <!-- item 1 -->
+            <div class="item" role="listitem">
+                <img src="resources/UrtheB-side.png" width="180" height="229" alt="เสื้อยืด B-sdie">
+                <h3>URTHE B-SIDE</h3>
+                <p style="font-size: 14px;"> เสื้อยืด สกรีนลาย รุ่น B-SIDE </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 200</p>
+                <a href="#popup1" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า เสื้อยืด B-sdie">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup1" class="popup" role="dialog" aria-labelledby="popup1-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup1-title">URTHE B-SIDE<br> YOUARETHE <br>( Black )</h2>
+                    <img src="resources/UrtheB-side.png" width="190" alt="เสื้อยืด B-sdie">
+                    <p>วัสดุ: Cotton <br>ขนาด: รอบอก 40-42 นิ้ว / ยาว 28 นิ้ว </p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม เสื้อยืด B-sdie ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+                </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="item" role="listitem">
+                <img src="resources/cap.png" width="224" height="224" alt="หมวกแก๊ป สีดำ">
+                <h3>CONSEQUENCES METAL </h3>
+                <p style="font-size: 14px;"> หมวกแก๊ป ทรงเบสบอล ปรับได้หลายระดับ </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 490</p>
+                <a href="#popup2" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า CONSEQUENCES METAL">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup2" class="popup" role="dialog" aria-labelledby="popup2-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup2-title">CONSEQUENCES <br> METAL LOGO CAP <br>( Black )</h2>
+                    <img src="resources/cap.png" width="250" alt="หมวกแก๊ป สีดำ">
+                    <p>วัสดุ: Corduroy <br>ขนาด : รอบหัว 23-25 ซม.</p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม CONSEQUENCES METAL CAP ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+                </div>
+            </div>
+
+            <!-- item 3 -->
+            <div class="item" role="listitem">
+                <img src="resources/cargo pant.jpg" width="300" height="224" alt="กางเกงคาร์โก้ สีดำ">
+                <h3>BB CARGO PANTS</h3>
+                <p style="font-size: 14px;"> กางเกงคาร์โก้ ขายาว เอวยืด </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 690</p>
+                <a href="#popup3" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า BB CARGO PANTS">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup3" class="popup" role="dialog" aria-labelledby="popup3-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup3-title">BB CARGO Pants <br> YOUARETHE <br>( Black )</h2>
+                    <img src="resources/cargo pant.jpg" width="250" alt="กางเกงคาร์โก้ สีดำ">
+                    <p>วัสดุ:ผ้าร่ม<br>ขนาด: รอบเอว 28-38 นิ้ว / สะโพก 48 นิ้ว / ยาว 39 นิ้ว</p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม BB CARGO PANTS ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+                </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="item" role="listitem">
+                <img src="resources/jacket.jpg" width="300" height="224" alt="แจ็คเก็ต แขนยาว สีดำ">
+                <h3>TRACKSUIT JACKET </h3>
+                <p style="font-size: 14px;"> เสื้อแจ็คเก็ต แขนยาว Oversized </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 990</p>
+                <a href="#popup4" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า TRACKSUIT JACKET">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup4" class="popup" role="dialog" aria-labelledby="popup4-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup4-title">TRACKSUIT JACKET <br> YOUARETHE <br>( Black )</h2>
+                    <img src="resources/jacket.jpg" width="300" alt="แจ็คเก็ต แขนยาว สีดำ">
+                    <p>วัสดุ: Double Knit Fabric<br>ขนาด: รอบอก 50 นิ้ว / ยาว 28 นิ้ว</p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม TRACKSUIT JACKET ลงในตะกร้า">เพิ่มไปยังตะกร้า</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="item" role="listitem">
+                <img src="resources/shorts.jpg" width="300" height="224" alt="กางเกงขาสั้น สีดำ">
+                <h3>HYKING SHORTS</h3>
+                <p style="font-size: 14px;"> กกางเกงขาสั้น คาร์โก้ เอวยืด สกรีนโลโก้ 3D </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 490</p>
+                <a href="#popup5" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า HYKING SHORTS">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup5" class="popup" role="dialog" aria-labelledby="popup5-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup5-title">HYKING SHORTS <br> YOUARETHE <br>( Black )</h2>
+                    <img src="resources/shorts.jpg" width="250" alt="กางเกงขาสั้น สีดำ">
+                    <p>วัสดุ: ผ้าร่ม<br>ขนาด: รอบเอว 26-38 นิ้ว / สะโพก 44 นิ้ว / ยาว 20 นิ้ว</p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม HYKING SHORTS ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+                </div>
+            </div>
+
+            <!-- item 6 -->
+            <div class="item" role="listitem">
+                <img src="resources/sneaker.jpg" width="300" height="224" alt="รองเท้าผ้าใบ รุ่น 1ST SNEAKER สีดำ">
+                <h3>URTHE 1ST SNEAKER</h3>
+                <p style="font-size: 14px;"> รองเท้าผ้าใบรุ่น 1ST SNEAKERS </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 1390</p>
+                <a href="#popup6" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า URTHE 1ST SNEAKER">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup6" class="popup" role="dialog" aria-labelledby="popup6-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup6-title">URTHE 1ST SNEAKER <br> YOUARETHE <br>( Black )</h2>
+                    <img src="resources/sneaker.jpg" width="250" alt="รองเท้าผ้าใบ รุ่น 1ST SNEAKER สีดำ">
+                    <p>ขนาด: 38 / 39 / 40 / 41 / 42 / 43 / 44 </p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม URTHE 1ST SNEAKER ลงในตะกร้า">เพิ่มไปยังตะกร้า</a>
+                    </p>
+                </div>
+            </div>
+
         </div>
-      </div>
+    </main>
 
-      <!-- item 2 -->
-      <div class="item" role="listitem">
-        <img src="resources/cap.png" width="224" height="224" alt="หมวกแก๊ป สีดำ">
-        <h3>CONSEQUENCES METAL </h3>
-        <p style="font-size: 14px;"> หมวกแก๊ป ทรงเบสบอล ปรับได้หลายระดับ </p>
-        <p class="text-sm font-medium text-neutral-700">฿ 490</p>
-        <a href="#popup2" class="text"
-          aria-label="รายละเอียดเพิ่มเติมของสินค้า CONSEQUENCES METAL">รายละเอียดเพิ่มเติม</a>
-      </div>
-      <div id="popup2" class="popup" role="dialog" aria-labelledby="popup2-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popup2-title">CONSEQUENCES <br> METAL LOGO CAP <br>( Black )</h2>
-          <img src="resources/cap.png" width="250" alt="หมวกแก๊ป สีดำ">
-          <p>วัสดุ: Corduroy <br>ขนาด : รอบหัว 23-25 ซม.</p>
-          <p class="text"><a href="#" class="bag"
-              aria-label="เพิ่ม CONSEQUENCES METAL CAP ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+    <!-- Contact -->
+    <footer>
+        <div class="contact all">
+
+            <div class="contact">
+                <a href="#" aria-label="ติดต่อผ่าน Facebook Worapon Jearsilanuwat">
+                    <img src="resources/Logo-Facebook.png" width="40" height="40"
+                        alt="ติดต่อผ่าน Facebook Worapon Jearsilanuwat">
+                    <p>Worapon Jearsilanuwat</p>
+                </a>
+            </div>
+
+            <div class="contact">
+                <a href="#" aria-label="ติดต่อผ่าน Instagram Aw_rpyy">
+                    <img src="resources/Logo-Instagram.png" width="55" height="55" alt="ติดต่อผ่าน Instagram Aw_rpyy">
+                    <p>Aw_rpyy</p>
+                </a>
+            </div>
+
         </div>
-      </div>
+        <div class="credit">
 
-      <!-- item 3 -->
-      <div class="item" role="listitem">
-        <img src="resources/cargo pant.jpg" width="300" height="224" alt="กางเกงคาร์โก้ สีดำ">
-        <h3>BB CARGO PANTS</h3>
-        <p style="font-size: 14px;"> กางเกงคาร์โก้ ขายาว เอวยืด </p>
-        <p class="text-sm font-medium text-neutral-700">฿ 690</p>
-        <a href="#popup3" class="text" aria-label="รายละเอียดเพิ่มเติมของสินค้า BB CARGO PANTS">รายละเอียดเพิ่มเติม</a>
-      </div>
-      <div id="popup3" class="popup" role="dialog" aria-labelledby="popup3-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popup3-title">BB CARGO Pants <br> YOUARETHE <br>( Black )</h2>
-          <img src="resources/cargo pant.jpg" width="250" alt="กางเกงคาร์โก้ สีดำ">
-          <p>วัสดุ:ผ้าร่ม<br>ขนาด: รอบเอว 28-38 นิ้ว / สะโพก 48 นิ้ว / ยาว 39 นิ้ว</p>
-          <p class="text"><a href="#" class="bag" aria-label="เพิ่ม BB CARGO PANTS ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+            <a href="https://sasom.co.th/en/launch?brand=URTHE" aria-label="แหล่งที่มาของรูปภาพ">
+                <p>แหล่งที่มาของสินค้า https://sasom.co.th/en/launch?brand=URTHE</p>
+
         </div>
-      </div>
-
-      <!-- item 4 -->
-      <div class="item" role="listitem">
-        <img src="resources/jacket.jpg" width="300" height="224" alt="แจ็คเก็ต แขนยาว สีดำ">
-        <h3>TRACKSUIT JACKET </h3>
-        <p style="font-size: 14px;"> เสื้อแจ็คเก็ต แขนยาว Oversized </p>
-        <p class="text-sm font-medium text-neutral-700">฿ 990</p>
-        <a href="#popup4" class="text"
-          aria-label="รายละเอียดเพิ่มเติมของสินค้า TRACKSUIT JACKET">รายละเอียดเพิ่มเติม</a>
-      </div>
-      <div id="popup4" class="popup" role="dialog" aria-labelledby="popup4-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popup4-title">TRACKSUIT JACKET <br> YOUARETHE <br>( Black )</h2>
-          <img src="resources/jacket.jpg" width="300" alt="แจ็คเก็ต แขนยาว สีดำ">
-          <p>วัสดุ: Double Knit Fabric<br>ขนาด: รอบอก 50 นิ้ว / ยาว 28 นิ้ว</p>
-          <p class="text"><a href="#" class="bag" aria-label="เพิ่ม TRACKSUIT JACKET ลงในตะกร้า">เพิ่มไปยังตะกร้า</a>
-          </p>
-        </div>
-      </div>
-
-      <!-- item 5 -->
-      <div class="item" role="listitem">
-        <img src="resources/shorts.jpg" width="300" height="224" alt="กางเกงขาสั้น สีดำ">
-        <h3>HYKING SHORTS</h3>
-        <p style="font-size: 14px;"> กกางเกงขาสั้น คาร์โก้ เอวยืด สกรีนโลโก้ 3D </p>
-        <p class="text-sm font-medium text-neutral-700">฿ 490</p>
-        <a href="#popup5" class="text" aria-label="รายละเอียดเพิ่มเติมของสินค้า HYKING SHORTS">รายละเอียดเพิ่มเติม</a>
-      </div>
-      <div id="popup5" class="popup" role="dialog" aria-labelledby="popup5-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popup5-title">HYKING SHORTS <br> YOUARETHE <br>( Black )</h2>
-          <img src="resources/shorts.jpg" width="250" alt="กางเกงขาสั้น สีดำ">
-          <p>วัสดุ: ผ้าร่ม<br>ขนาด: รอบเอว 26-38 นิ้ว / สะโพก 44 นิ้ว / ยาว 20 นิ้ว</p>
-          <p class="text"><a href="#" class="bag" aria-label="เพิ่ม HYKING SHORTS ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
-        </div>
-      </div>
-
-      <!-- item 6 -->
-      <div class="item" role="listitem">
-        <img src="resources/sneaker.jpg" width="300" height="224" alt="รองเท้าผ้าใบ รุ่น 1ST SNEAKER สีดำ">
-        <h3>URTHE 1ST SNEAKER</h3>
-        <p style="font-size: 14px;"> รองเท้าผ้าใบรุ่น 1ST SNEAKERS </p>
-        <p class="text-sm font-medium text-neutral-700">฿ 1390</p>
-        <a href="#popup6" class="text"
-          aria-label="รายละเอียดเพิ่มเติมของสินค้า URTHE 1ST SNEAKER">รายละเอียดเพิ่มเติม</a>
-      </div>
-      <div id="popup6" class="popup" role="dialog" aria-labelledby="popup6-title" aria-hidden="true">
-        <div class="popup-content">
-          <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
-          <h2 id="popup6-title">URTHE 1ST SNEAKER <br> YOUARETHE <br>( Black )</h2>
-          <img src="resources/sneaker.jpg" width="250" alt="รองเท้าผ้าใบ รุ่น 1ST SNEAKER สีดำ">
-          <p>ขนาด: 38 / 39 / 40 / 41 / 42 / 43 / 44 </p>
-          <p class="text"><a href="#" class="bag" aria-label="เพิ่ม URTHE 1ST SNEAKER ลงในตะกร้า">เพิ่มไปยังตะกร้า</a>
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </main>
-
-  <!-- Contact -->
-  <footer>
-    <div class="contact all">
-
-      <div class="contact">
-        <a href="#" aria-label="ติดต่อผ่าน Facebook Worapon Jearsilanuwat">
-          <img src="resources/Logo-Facebook.png" width="40" height="40" alt="ติดต่อผ่าน Facebook Worapon Jearsilanuwat">
-          <p>Worapon Jearsilanuwat</p>
-        </a>
-      </div>
-
-      <div class="contact">
-        <a href="#" aria-label="ติดต่อผ่าน Instagram Aw_rpyy">
-          <img src="resources/Logo-Instagram.png" width="55" height="55" alt="ติดต่อผ่าน Instagram Aw_rpyy">
-          <p>Aw_rpyy</p>
-        </a>
-      </div>
-
-    </div>
-    <div class="credit">
-
-      <a href="https://sasom.co.th/en/launch?brand=URTHE" aria-label="แหล่งที่มาของรูปภาพ">
-        <p>แหล่งที่มาของสินค้า https://sasom.co.th/en/launch?brand=URTHE</p>
-
-    </div>
-  </footer>
+    </footer>
 
 
 
