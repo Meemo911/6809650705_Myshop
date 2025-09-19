@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+        h1 {
+            font-family: serif;
+        }
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+        h5 {
+            font-family: Libertinus Serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+
+
+
+        <nav aria-label="Logo-Fullname">
+            <div class="Fullname">
+                <img src="resources/Urthelogo-full.png" width="150" height="100" alt="โลโก้ตัวชื่อเต็มร้าน URTHE">
+            </div>
+
+            <div class="Story">
+                <a href="#popupStory" aria-label="ไปยังหน้าสตอรี่ของร้าน">
+                    <img src="resources/Storyfont.png" width="80" height="80" alt="หน้าสตอรี่ของร้าน">
+                </a>
+            </div>
+
+            <div id="popupStory" class="popup" role="dialog" aria-labelledby="popupStory-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popupStory-title">Story ของร้าน</h2>
+                    <p>ก่อตั้งขึ้นในปี 2012 โดย เบนซ์ อุมาทิพย์ ชำนาญเรือง
+                        เป็นแบรนด์เสื้อผ้าสตรีทแฟชั่นของไทยที่เกิดจากความชอบในแฟชั่นและการสร้างเอกลักษณ์เฉพาะตัว
+                        ภายใต้คอนเซ็ปต์
+                        "Timeless Design" เพื่อออกแบบไอเทมที่หลากหลาย ทันสมัย และมีความเรียบง่าย
+                        ทำให้ผู้สวมใส่สามารถนำไปมิกซ์แอนด์แมทช์ในสไตล์ของตัวเองได้อย่างอิสระ. </p>
+                </div>
+            </div>
+
+            <div id="Storypopup" class="popup" role="dialog" aria-labelledby="Storypopup-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                </div>
+            </div>
+
+
+            <div class="logo">
+                <a href="index.html" aria-label="กลับไปหน้าแรก">
+                    <img src="resources/logo_white.png" width="100" height="100" alt="โลโก้ร้าน URTHE สีขาว">
+                </a>
+            </div>
+
+            <div class="Present">
+                <a href="#popupPresent" aria-label="ไปยังหน้าแนะนำวิดิโอ">
+                    <img src="resources/Presentfont.png" width="80" height="80" alt="หน้าสตอรี่ของร้าน">
+                </a>
+            </div>
+            <div id="popupPresent" class="popup" role="dialog" aria-labelledby="popupPresentVdio" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popupPresent">แนะนำสินค้าในร้าน</h2>
+                    <video width="100%" controls>
+                        <source src="resources/วิดิโอแนะนำสินค้าในร้าน.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+
+
+
+            <div class="Menu">
+                <a href="#" class="menu-button" aria-label="เปิดเมนูหมวดหมู่สินค้า">
+                    <img src="resources/MenuW.png" width="40" height="40" alt="Menu">
+                </a>
+
+
+                <div class="menu-popup">
+                    <div class="main-menu">
+                        <a href="my1stcategory.html">●Clothing</a>
+
+                        <a href="my2ndcategory.html">●Bags</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+    </nav>
+    </header>
+
+    <main>
+        <div class="Shirtlist">
+            <center>
+                <h1>┏⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ BAGS ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯┓</h1>
+            </center>
+        </div>
+        <div class="product" role="list">
+            <!-- item popup1 -->
+            <div class="item" role="listitem">
+                <img src="resources/PU TOTE BAG.jpg" width="180" height="229" alt="PU TOTE BAG">
+                <h3>PU TOTE BAG</h3>
+                <p style="font-size: 14px;"> กระเป๋า รุ่น PU TOTE BAG </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 1,000</p>
+                <a href="#popup1" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า PU TOTE BAG">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup1" class="popup" role="dialog" aria-labelledby="popup1-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup1-title">PU TOTE BAG</h2>
+                    <img src="resources/PU TOTE BAG.jpg" width="190" alt="PU TOTE BAG">
+                    <p>วัสดุ: PU <br>ขนาด: ขนาดมาตรฐาน</p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม PU TOTE BAG ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+                </div>
+            </div>
+
+
+
+            <!-- item popup2 -->
+            <div class="item" role="listitem">
+                <img src="resources/BROKEN LOGO DENIM SHOULDER.jpg" width="180" height="229"
+                    alt="BROKEN LOGO DENIM SHOULDER">
+                <h3>BROKEN LOGO DENIM SHOULDER</h3>
+                <p style="font-size: 14px;"> กระเป๋า รุ่น BROKEN LOGO DENIM SHOULDER </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 590</p>
+                <a href="#popup2" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า BROKEN LOGO DENIM SHOULDER">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup2" class="popup" role="dialog" aria-labelledby="popup2-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup2-title">BROKEN LOGO DENIM SHOULDER</h2>
+                    <img src="resources/BROKEN LOGO DENIM SHOULDER.jpg" width="190" alt="BROKEN LOGO DENIM SHOULDER">
+                    <p>วัสดุ: Denim <br>ขนาด: สูง 28 ซม. /  ยาวไม่รวมกระเป๋าข้าง 27 ซม.</p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม BROKEN LOGO DENIM SHOULDER ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+                </div>
+            </div>
+
+
+
+            <!-- item popup3 -->
+            <div class="item" role="listitem">
+                <img src="resources/THE DENIM TOTE BAG.jpg" width="180" height="229" alt="THE DENIM TOTE BAG">
+                <h3>THE DENIM TOTE BAG</h3>
+                <p style="font-size: 14px;"> กระเป๋า รุ่น THE DENIM TOTE BAG </p>
+                <p class="text-sm font-medium text-neutral-700">฿ 390</p>
+                <a href="#popup3" class="text"
+                    aria-label="รายละเอียดเพิ่มเติมของสินค้า THE DENIM TOTE BAG">รายละเอียดเพิ่มเติม</a>
+            </div>
+            <div id="popup3" class="popup" role="dialog" aria-labelledby="popup3-title" aria-hidden="true">
+                <div class="popup-content">
+                    <a href="#" class="close" aria-label="ปิดหน้าต่าง">&times;</a>
+                    <h2 id="popup3-title">THE DENIM TOTE BAG</h2>
+                    <img src="resources/THE DENIM TOTE BAG.jpg" width="190" alt="THE DENIM TOTE BAG">
+                    <p>วัสดุ: DENIM <br>ขนาด: ขนาดมาตรฐาน</p>
+                    <p class="text"><a href="#" class="bag"
+                            aria-label="เพิ่ม THE DENIM TOTE BAG ลงในตะกร้า">เพิ่มไปยังตะกร้า</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="Pantlist">
+            <center>
+        
+        </div>
+    </main>
+
+    <!-- Contact -->
+    <footer>
+        <div class="contact all">
+
+            <div class="contact">
+                <a href="#" aria-label="ติดต่อผ่าน Facebook Worapon Jearsilanuwat">
+                    <img src="resources/Logo-Facebook.png" width="40" height="40"
+                        alt="ติดต่อผ่าน Facebook Worapon Jearsilanuwat">
+                    <p>Worapon Jearsilanuwat</p>
+                </a>
+            </div>
+
+            <div class="contact">
+                <a href="#" aria-label="ติดต่อผ่าน Instagram Aw_rpyy">
+                    <img src="resources/Logo-Instagram.png" width="55" height="55" alt="ติดต่อผ่าน Instagram Aw_rpyy">
+                    <p>Aw_rpyy</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="credit">
+
+            <a href="https://sasom.co.th/en/launch?brand=URTHE" aria-label="แหล่งที่มาของรูปภาพ">
+                <p>แหล่งที่มาของสินค้า https://sasom.co.th/en/launch?brand=URTHE</p>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
