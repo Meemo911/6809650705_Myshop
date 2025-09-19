@@ -59,92 +59,52 @@
 }
 
 
+/* ตำแหน่งปุ่มเมนู */
 .Menu {
-  position: fixed; 
-  top: 20px;       
-  right: 20px;    
+  position: absolute;
+  top: 35px;
+  right: 35px;
   display: inline-block;
-  margin-top: 15px;
   z-index: 1000;
 }
 
+
 .menu-popup {
+  display: none;
   position: absolute;
-  top: 40px; 
+  top: 40px;
   right: 0;
   background: rgba(255, 255, 255, 0.95);
-  border-radius: 20px;
+  border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  padding: 20px 20px;
-  display: none;
-  z-index: 10000; /* เพิ่ม z-index ให้สูงกว่า container สีดำ */
-  overflow: visible; /* ให้ submenu โผล่ออกมาได้ */
+  padding: 15px;
 }
 
-.Menu:hover .menu-popup,
-.menu-popup:hover {
-  display: block; /* แสดงเมนูเมื่อ hover ปุ่ม Menu หรือ popup เอง */
+
+.Menu:hover .menu-popup {
+  display: block;
 }
 
-.main-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.main-menu > li {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.main-menu > li a {
+.main-menu a {
+  display: block;
+  color: #000000; 
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
   text-decoration: none;
-  color: #111;
-  font-weight: bold;
-  display: block;
-  padding: 5px 10px;
-  border-radius: 6px;
-  transition: background 0.3s;
+  padding: 8px 12px;
+  border-radius: 100px;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
-.main-menu > li a:hover {
-  background: #f0f0f0;
+
+.main-menu a:hover {
+  color: #fff;          
+  background: #111;     
+  transform: scale(1.05);
 }
 
-/* submenu */
-.submenu {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-  display: none;
-  position: absolute; /* absolute ให้โผล่จาก popup */
-  top: 0;
-  right: 100%; /* ขยับออกไปทางขวา */
-  min-width: 180px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  padding: 10px 0;
-  z-index: 10001;
-}
 
-/* แสดง submenu เมื่อ hover li หรือ submenu เอง */
-.main-menu > li:hover .submenu,
-.submenu:hover {
-  display: block;
-}
-
-.submenu li a {
-  display: block;
-  padding: 5px 12px;
-  text-decoration: none;
-  color: #333;
-  border-radius: 5px;
-}
-
-.submenu li a:hover {
-  background: #eee;
-}
 
 
 
